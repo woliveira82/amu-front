@@ -1,9 +1,13 @@
-import React from 'react';
+import React from "react";
+import amlogo from "./AM.png"
 
-import './styles.css';
+import "./styles.css";
 
 const Header = () => (
-    <header id="main-header">Header</header>
+    <header id="main-header">
+        <img src={amlogo} alt="AM logo" />
+        | Header
+    </header>
 );
 
 export default Header;

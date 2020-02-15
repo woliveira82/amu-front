@@ -3,8 +3,9 @@ div#main-content {
     height: 100%;
     background: #ffffff;
     font-size: 18px;
+    color: #4e3629;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #4e3629;
+    flex-direction: column;
 }

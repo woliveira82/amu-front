@@ -1,17 +1,11 @@
-import React from 'react';
+import React from "react";
+import Routes from "../../routes";
 
 import './styles.css';
 
 const Main = () => (
     <div id="main-content">
-        Main<br />
-        Main<br />
-        Main<br />
-        Main<br />
-        Main<br />
-        Main<br />
-        Main<br />
-        Main<br />
+       <Routes />
     </div>
 );
 
