@@ -5,8 +5,6 @@ div#main-content {
     font-size: 18px;
     color: #4e3629;
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
-    padding: 2em 6em;
+    padding: 1em 0em;
 }
