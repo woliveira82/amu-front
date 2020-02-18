@@ -1,14 +1,27 @@
 footer#main-footer {
 
     width: 100%;
-    height: 60px;
+    height: 7lem;
     border-top: 1px solid #cecece;
     background: #e9e9e9;
     font-size: 18px;
     font-weight: bold;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     color: #4e3629;
     align-self: flex-end;
+}
+
+#social {
+    background: pink;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#copyright {
+    font-size: 12px;
+    color: #959595;
 }

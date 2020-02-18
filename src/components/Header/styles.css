@@ -4,8 +4,14 @@ header#main-header {
     background: #e93cac;
     font-size: 18px;
     font-weight: bold;
+    padding: 0em 2em;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     color: #4e3629;
+    
+}
+
+header#main-header > img {
+    height: 90%;
 }
