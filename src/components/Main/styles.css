@@ -5,6 +5,5 @@ div#main-content {
     font-size: 18px;
     color: #4e3629;
     display: flex;
-    flex-direction: column;
     padding: 1em 0em;
 }

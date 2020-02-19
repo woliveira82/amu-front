@@ -1,8 +1,8 @@
 import React from "react";
 
 import "./styles.css";
-import InstaIcon from "../InstaIcon";
-import FaceIcon from "../FaceIcon";
+import InstaIcon from "./InstaIcon";
+import FaceIcon from "./FaceIcon";
 
 const Footer = () => (
     <footer id="main-footer">
@@ -10,7 +10,7 @@ const Footer = () => (
             <InstaIcon />
             <FaceIcon />
         </div>
-        <div id="copyright">Artigos de Mãe - 2020</div>
+        <div id="copyright">Artigos de Mãe | 2015 - 2020</div>
     </footer>
 );
 

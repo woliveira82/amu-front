@@ -1,0 +1,14 @@
+#insta-icon {
+    width: 4em;
+    color: #959595;
+}
+
+#insta-icon svg {
+    height: 2em;
+    width: 2em;
+    fill: #959595;
+}
+
+#insta-icon svg:hover {
+    fill: blue;
+}

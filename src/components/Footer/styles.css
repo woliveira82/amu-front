@@ -1,19 +1,17 @@
 #main-footer {
-    /* width: 100%; */
-    /* height: 7em; */
-    /* border-top: 1px solid #cecece; */
-    /* background: #e9e9e9; */
-    /* font-size: 18px; */
-    /* font-weight: bold; */
-    /* display: flex; */
-    /* justify-content: space-around; */
-    /* align-items: center; */
-    /* color: #4e3629; */
-    /* align-self: flex-end; */
+    width: 100%;
+    height: 5em;
+    border-top: 1px solid #cecece;
+    background: #e9e9e9;
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-self: flex-end;
 }
 
 #social {
-    background: pink;
     display: flex;
     flex-direction: row;
     align-items: center;

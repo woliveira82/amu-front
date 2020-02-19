@@ -17,10 +17,6 @@ body {
     min-height: 100%;
 }
 
-div#root {
-    height: 100vh;
-}
-
 div.App {
     display: flex;
     flex-direction: column;
