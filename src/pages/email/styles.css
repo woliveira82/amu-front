@@ -5,9 +5,9 @@
 }
 
 .box-content {
-    padding: 2em;
+    padding: 2rem;
     width: 100%;
-    height: 60%;
+    height: 60vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,7 +15,8 @@
 
 .bg-pink {
     background-color: #e93cac;
-    font: italic bold 12px/30px Georgia, serif
+    font: bold 3vw Georgia, serif;
+    flex-direction: column;
 }
 
 .email-signup {
@@ -26,21 +27,21 @@
 }
 
 #artigoDeMaeLogo {
-    max-height: 18em;
-    margin: 2em;
+    max-height: 18rem;
+    margin: 2rem;
 }
 
 h1 {
-    margin: 1em;
+    margin: 1rem;
 }
 
 p {
-    margin: 1em;
+    margin: 1rem;
 }
 
 #inputEmail {
     width: 90%;
-    margin: 2em 0;
+    margin: 2rem 0;
 }
 
 input {
@@ -62,4 +63,18 @@ button {
     border-radius: 0px 20px 20px 0px;
     background-color: #e93cac;
     font: 100 bolder normal;
+}
+
+@media only screen and (max-width: 600px) {
+    #artigoDeMaeLogo {
+        margin: 0.2rem;
+    }
+    
+    .box-content {
+        padding: 0.2rem;
+    }
+
+    .bg-pink {
+        font: bold 4vw Georgia, serif;
+    }
 }

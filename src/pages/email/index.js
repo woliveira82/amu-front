@@ -10,7 +10,8 @@ export default class Email extends Component {
                 <img id="artigoDeMaeLogo" src={artigoDeMae} alt="Artigos de Mãe" />
             </div>
             <div class="box-content bg-pink">
-                <h1>Nunca pare, aprenda sempre</h1>
+                <p><h1>Nunca pare,</h1></p>
+                <p><h1>aprenda sempre</h1></p>
             </div>
             <div class="box-content">
                 <p>IMAGEM DE COMIDA</p>
