@@ -5,7 +5,6 @@
 }
 
 .box-content {
-    padding: 2rem;
     width: 100%;
     height: 60vh;
     display: flex;
@@ -13,9 +12,19 @@
     align-items: center;
 }
 
+.box-text {
+    padding: 2rem;
+}
+
+.box-image {
+    padding: 0px;
+
+}
+
 .bg-pink {
     background-color: #e93cac;
-    font: bold 3vw Georgia, serif;
+    font-family: saint-elia-bold;
+    font-size: 2rem;
     flex-direction: column;
 }
 
@@ -29,6 +38,10 @@
 #artigoDeMaeLogo {
     max-height: 18rem;
     margin: 2rem;
+}
+
+#brigadeiros {
+    background-image: url("brigadeiros.png");
 }
 
 h1 {
@@ -62,7 +75,7 @@ button {
     padding: 10px 20px;
     border-radius: 0px 20px 20px 0px;
     background-color: #e93cac;
-    font: 100 bolder normal;
+    font-family: varela-round;
 }
 
 @media only screen and (max-width: 600px) {
