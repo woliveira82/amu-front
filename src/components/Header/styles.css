@@ -1,6 +1,6 @@
 header#main-header {
     width: 100%;
-    height: 60px;
+    height: 80px;
     background: #e93cac;
     font-size: 18px;
     font-weight: bold;
@@ -13,5 +13,5 @@ header#main-header {
 }
 
 header#main-header > img {
-    height: 90%;
+    height: 60%;
 }
