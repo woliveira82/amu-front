@@ -1,0 +1,3 @@
+# amu-front
+
+Deprecated project.
